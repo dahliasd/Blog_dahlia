@@ -1,0 +1,35 @@
+garage404@DESKTOP-VE0R3QN MINGW64 ~/Documents/Blog_dahlia (main)
+$ git config --global user.email "sadaouidahlia42@gmail.com"
+
+garage404@DESKTOP-VE0R3QN MINGW64 ~/Documents/Blog_dahlia (main)
+$ git config --global user.name "dahliasd"
+
+garage404@DESKTOP-VE0R3QN MINGW64 ~/Documents/Blog_dahlia (main)
+$ git add .
+
+garage404@DESKTOP-VE0R3QN MINGW64 ~/Documents/Blog_dahlia (main)
+$ git commit -m "Test"
+[main 391fe21] Test
+ 3 files changed, 7 insertions(+), 7 deletions(-)
+ create mode 100644 jolyne_cujoh_and_jotaro_kujo_JoJo_Bizarre_Adventure_jjba-850x560.jpg
+
+garage404@DESKTOP-VE0R3QN MINGW64 ~/Documents/Blog_dahlia (main)
+$ git push -u
+
+Exception non gérée : System.ComponentModel.Win32Exception: Handle de fenêtre non valide
+   à MS.Win32.ManagedWndProcTracker.HookUpDefWindowProc(IntPtr hwnd)
+   à MS.Win32.ManagedWndProcTracker.OnAppDomainProcessExit()
+   à MS.Internal.ShutDownListener.HandleShutDown(Object sender, EventArgs e)
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 167.54 KiB | 23.93 MiB/s, done.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/dahliasd/Blog_dahlia.git
+   7452c61..391fe21  main -> main
+branch 'main' set up to track 'origin/main'.
+
+garage404@DESKTOP-VE0R3QN MINGW64 ~/Documents/Blog_dahlia (main)
+$
